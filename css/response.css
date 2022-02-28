@@ -104,7 +104,7 @@
   #wrap #main #section1 .inner_box .slide_view .slide_wrap .slide .slide_inner .txt_wrap{margin: auto; text-align: center; }
   #wrap #main #section1 .inner_box .slide_view .slide_wrap .slide .slide_inner .txt_wrap .num_box{display: none; }
   #wrap #main #section1 .inner_box .slide_view .slide_wrap .slide .slide_inner .txt_wrap .txt_box{margin: 0;  }
-  #wrap #main #section1 .inner_box .slide_view .slide_wrap .slide .slide_inner .txt_wrap .txt_box span a{font-size: 1.673101vw;}
+  #wrap #main #section1 .inner_box .slide_view .slide_wrap .slide .slide_inner .txt_wrap .txt_box span a{font-size: 13px;}
 
   #wrap #main #section1 .inner_box .slide_btn_box div{ width: 66px; height: 66px; }
 
@@ -115,6 +115,9 @@
 
 }
 @media (max-width: 767px){
+  #wrap #header{position: relative; z-index: 3; width: 100%; padding: 15px 0;}
+  #wrap #header .inner_box .nav_N_tel_box .tel_box a{display: none; }
+
 
   .sm_container{ flex-wrap: wrap; padding: 130px 0;  text-align: center;}
   #wrap #main #section2 .left{width: 100%; }
