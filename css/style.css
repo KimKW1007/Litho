@@ -421,7 +421,7 @@
 /* 플레이버튼 클릭시 나오는 영상 + 딤 */
 .overlay{ display: none; position: fixed; z-index: 4; left: 0; top: 0; width: 100%; height: 100%; background: rgba(40, 40, 40, 0.8); padding: 60px 0;  overflow: hidden;}
 .overlay .overlay_inner{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;}
-.overlay .overlay_inner iframe{width: 1030px; height: 580px;}
+.overlay .overlay_inner iframe{width: 1030px; height: 580px; border: 0;}
 /* 영상 클로즈 버튼 */
 .overlay .cl_btn_box{ position: absolute; right: 2%; top: 2%;  width: 40px; height: 40px; }
 .overlay .cl_btn_box a{display: flex; width: 100%; height: 100%; color: #fff; overflow: hidden; transition:  background .2s ease-in-out, color .2s ease-in-out ;  }
