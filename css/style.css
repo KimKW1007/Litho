@@ -202,7 +202,7 @@
 #wrap #main #section5 .inner_box{position: relative; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;}
 #wrap #main #section5 .inner_box::before{content: ''; position: absolute; z-index: 1; left: 0; top: 0; width: 100%; height: 100%; background: url(../img/architecture-img-14.jpg) no-repeat center center; background-size: cover; opacity: 0.5;}
 
-#wrap #main #section5 .inner_box .play_box{position: relative; z-index: 3;  width: 60px; height: 60px; border-radius: 50%; background: #cee002; border: 2px solid #cee002;  transition: background .3s ease-in-out; animation: btnWave 1.6s ease-in-out forwards ; }
+#wrap #main #section5 .inner_box .play_box{position: relative; z-index: 3;  width: 60px; height: 60px; border-radius: 50%; background: #cee002; border: 2px solid #cee002;  transition: background .3s ease-in-out; animation: btnWave 1.6s ease-in-out infinite ; }
 #wrap #main #section5 .inner_box .play_box .play_inner{ width: 100%; height: 100%; border-radius: 50%; overflow: hidden;  }
 #wrap #main #section5 .inner_box .play_box .play_inner a{ display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-size: 24px; color: #494949; transition: color .3s ease-in-out; }
 #wrap #main #section5 .inner_box .play_box .play_inner a i{  margin: 0 -6px 0 0; }
