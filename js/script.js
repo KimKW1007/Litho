@@ -24,7 +24,7 @@
     },
     parallax:function(){
       var plx = {
-        init(){
+        init:function(){
           this.section2();
           this.section3();
           this.section4();
@@ -33,7 +33,7 @@
           this.section8();
           this.section9();
         },
-        section2(){
+        section2:function(){
           var wind = $(window),
               s2 = $('#section2'),
               s2_OST = s2.offset().top,
@@ -59,7 +59,7 @@
              
 
         },
-        section3(){
+        section3:function(){
           var wind = $(window),
               s3 = $('#section3'),
               s3_OST = s3.offset().top,
@@ -85,7 +85,7 @@
               })
 
         },
-        section4(){
+        section4:function(){
           var wind = $(window),
               s4 = $('#section4'),
               s4_OST = s4.offset().top ,
@@ -110,7 +110,7 @@
               })
 
         },
-        section5(){
+        section5:function(){
           var wind = $(window),
               s5 = $('#section5'),
               s5_OST = s5.offset().top ,
@@ -136,7 +136,7 @@
               })
 
         },
-        section6(){
+        section6:function(){
           var wind = $(window),
               s6 = $('#section6'),
               s6_OST = s6.offset().top ,
@@ -160,7 +160,7 @@
               })
 
         },
-        section8(){
+        section8:function(){
           var wind = $(window),
               s8 = $('#section8'),
               s8_OST = s8.offset().top ,
@@ -185,7 +185,7 @@
               })
 
         },
-        section9(){
+        section9:function(){
           var wind = $(window),
               s9 = $('#section9'),
               s9_OST = s9.offset().top ,
